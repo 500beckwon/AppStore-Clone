@@ -61,7 +61,7 @@ final class AppDetailViewController: UIViewController {
 
         super.init(nibName: nil, bundle: nil)
     }
-    
+
     required init?(coder: NSCoder) {
         fatalError("init(coder:) has not been implemented")
     }
@@ -76,6 +76,7 @@ final class AppDetailViewController: UIViewController {
         appIconImageView.backgroundColor = .lightGray
         titleLabel.text = today.title
         subTitleLabel.text = today.subTitle
+        
     }
 }
 
