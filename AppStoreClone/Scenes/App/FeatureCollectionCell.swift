@@ -44,6 +44,7 @@ final class FeatureCollectionCell: UICollectionViewCell {
     func setup(feature: Feature) {
         setupLayout()
         
+        
         typeLabel.text = feature.type
         appNameLabel.text = feature.appName
         descriptionLabel.text = feature.description
